@@ -1,7 +1,7 @@
 import React from "react";
-import { Card } from "../../components/Card";
+import { Card } from "../../components/Card/card";
 import { UserInfo } from "../../components/UserInfo";
-import { Header } from "../../components/Header";
+import { Header } from "../../components/Header/header";
 import { Container, Column, Title, TitleHighlight } from "./styles";
 
 const Feed = () => {

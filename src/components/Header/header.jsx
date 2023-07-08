@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo-dio.png";
-import { Button } from "../Button";
+import { Button } from "../Button/button";
 import { Container, Wrapper, FindInputContainer, Input, Row, Menu, MenuRight, UserPicture} from "./styles";
 
 const Header = ({autenticado}) => {

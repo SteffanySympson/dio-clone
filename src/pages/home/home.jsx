@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import { Button } from "../../components/Button";
-import { Header } from "../../components/Header";
+import { Button } from "../../components/Button/button";
+import { Header } from "../../components/Header/header";
 import bannerImage from "../../assets/banner.png";
 import { Container, Title, TitleHighlight, TextContent } from "./styles";
 

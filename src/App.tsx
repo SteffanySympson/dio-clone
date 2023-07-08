@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
-import { Feed } from "./pages/feed";
-import { Home } from "./pages/home";
-import { Login } from "./pages/login";
+import { Feed } from "./pages/feed/feed";
+import { Home } from "./pages/home/home";
+import { Login } from "./pages/login/login";
 import { GlobalStyle } from "./styles/global";
 
-function App() {
+export default function App() {
   return (
     <Router>
      <GlobalStyle />
@@ -16,6 +16,4 @@ function App() {
     </Router>
   );
 }
-
-export default App;
 

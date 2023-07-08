@@ -78,3 +78,9 @@ export const CreateText =  styled.p`
 
     color: #23DD7A;
 `
+
+export const ErrorText =  styled.p`
+    margin: 5px 0;
+    font-size: 12px;
+    color: #FF0000;
+`
